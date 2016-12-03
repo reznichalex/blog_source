@@ -66,6 +66,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+plugins:
+- hexo-generator-cname
 
 
 # Deployment
@@ -74,6 +76,6 @@ deploy:
   type: git
   repo: https://github.com/reznichalex/reznichalex.github.io.git
   branch: master
-  ignore: [CNAME]
+  ignore: ['/CNAME'']
   
 
