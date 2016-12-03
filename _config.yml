@@ -76,5 +76,3 @@ deploy:
   type: git
   repo: https://github.com/reznichalex/reznichalex.github.io.git
   branch: master
-  
-
